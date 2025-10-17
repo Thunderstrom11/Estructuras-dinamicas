@@ -22,5 +22,10 @@ namespace Estructuras_dinamicas
         {
             new FrmPilas().Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            new FrmPila2().Show();
+        }
     }
 }

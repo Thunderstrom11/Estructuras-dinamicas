@@ -52,16 +52,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmPila2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPila2.Designer.cs">
+      <DependentUpon>FrmPila2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmPilas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FrmPilas.Designer.cs">
       <DependentUpon>FrmPilas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Expediente.cs" />
+    <Compile Include="Negocios\beca.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPila2.resx">
+      <DependentUpon>FrmPila2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmPilas.resx">
       <DependentUpon>FrmPilas.cs</DependentUpon>
@@ -74,6 +85,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -88,6 +100,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

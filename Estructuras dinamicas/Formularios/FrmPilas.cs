@@ -54,7 +54,7 @@ namespace Estructuras_dinamicas.Formularios
         {
             try
             {
-                pila.Peek(); // ver el elemento superior de la pila
+                MessageBox.Show($"{pila.Peek()}", "Ultimo elemento ingresado", MessageBoxButtons.OK, MessageBoxIcon.Information); // ver el elemento superior de la pila
                 lblPilas.Text = MostrarElementos();
 
             }

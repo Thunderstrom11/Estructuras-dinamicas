@@ -49,6 +49,7 @@
             this.Controls.Add(this.btnpila);
             this.Name = "Form1";
             this.Text = "Estructuras dinamicas";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
