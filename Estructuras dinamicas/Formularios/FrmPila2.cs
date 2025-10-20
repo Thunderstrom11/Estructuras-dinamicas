@@ -27,11 +27,15 @@ namespace Estructuras_dinamicas.Formularios
             est.promedio = int.Parse(tbPromedio.Text);
 
             pila.Push(est);
-
+            LlenarList();
         }
         private void LlenarList()
         {
             lstPromedios.Items.Clear();
+            foreach (Expediente est in pila)
+            {
+                lstPromedios.Items.Add(est.promedio);
+            }
         }
     }
 }

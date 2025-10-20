@@ -27,5 +27,10 @@ namespace Estructuras_dinamicas
         {
             new FrmPila2().Show();
         }
+
+        private void btnpila2_Click(object sender, EventArgs e)
+        {
+            new FrmPila2().Show();
+        }
     }
 }
